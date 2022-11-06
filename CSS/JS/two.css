@@ -1,0 +1,31 @@
+body{
+    background-color: pink;
+    align-items: center;
+}
+h1{
+    background-color: antiquewhite;
+    text-decoration: yellow;
+    color: green; 
+    text-align: center;
+}
+.new{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+        margin: 4%;
+    }
+.image{
+    margin: 5px;
+    border: 1px solid black;
+    height: auto;
+    width: 30%;
+}
+#tribute-info{
+    margin: 4%;
+}
+#img-caption{
+    text-align: center;
+}
