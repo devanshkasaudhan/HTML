@@ -1,0 +1,98 @@
+.page-finalize .document:not(.skn-mld3), .page-finalize #document {
+    box-shadow: rgb(88 88 95 / 12%) 0px 0px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 236, 240);
+}
+.skn-srz5.fontsize {
+    font-size: 11px;
+}
+.skn-srz5.fontface {
+    font-family: "Century Gothic";
+}
+.skn-srz5.pagesize {
+    width: 612px;
+}
+.document, #document {
+    min-height: 795px;
+}
+.document, #document, #dummyDocument {
+    box-sizing: content-box;
+    color: initial;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+.document, #document {
+    /* background-color: rgb(255, 255, 255); */
+    cursor: default;
+}
+.skn-srz5, .skn-srz5 table {
+    line-height: 16px;
+}
+.skn-srz5 {
+    /* box-sizing: border-box; */
+    /* color: rgb(52, 52, 52); */
+    font-variant-ligatures: none;
+    /* line-height: 16px; */
+    padding-bottom: 24px;
+    /* min-height: 792px; */
+    position: relative;
+    overflow-wrap: break-word;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0px;
+    padding: 0px;
+    /* border: 0px; */
+    outline: 0px;
+    vertical-align: baseline;
+    background: transparent;
+}
+* {
+    transition: color 0.2s ease 0s, background-color 0.25s ease 0s, border-color 0.5s ease 0s, opacity 0.25s ease 0s;
+}
+*, ::before, ::after {
+    /* box-sizing: border-box; */
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.page-finalize .preview-container {
+    /* font-size: 12px; */
+    margin: 0px auto 0px 60px;
+    min-height: 835px;
+}
+body {
+    margin: 0px;
+    height: 100%;
+    line-height: inherit;
+}
+body {
+    text-align: left;
+    /* font-feature-settings: "liga" 0; */
+}
+.page-finalize {
+    /* user-select: none; */
+}
+:root {
+    --is-css-loaded: 1;
+}
+html {
+    background: rgb(255, 255, 255);
+    /* color: rgb(70, 70, 78); */
+    /* font-size: 62.5%; */
+    /* font-family: "HK Grotesk", sans-serif; */
+    height: 100%;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    /* text-align: left; */
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
