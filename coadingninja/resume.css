@@ -1,28 +1,27 @@
 body {
-    margin: 0px;
     font-family: sans-serif;
-    font-size: 30px;
+    margin: 0;
 }
-html{
-    background-color: darkslategrey;
-}
+
 
 /* body header */
 
 #bodyheader {
-    height: 60vh;
+    height: 65vh;
     background-image: url(img/asset_0000000000000020_1549743985_macbook_mouse.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     opacity: .8;
-    border-bottom: 10px groove dimgray;
+    padding-top: 1.2rem;
 }
-#name{
+
+#name {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10vh;
 }
+
 /* navigation list */
 
 .horizontal-list {
@@ -45,38 +44,204 @@ html{
     text-decoration: none;
     color: white;
 }
-.horizontal-list li a:hover{
-    border-bottom: 1px solid black ;
+
+.horizontal-list li a:hover {
+    border-bottom: 1px solid black;
     color: #fecbcb;
     transition: color .5, border-bottom 4s;
 
 }
-#social img{
+
+/* social icons */
+
+#social img {
     width: 35px;
     padding: 25px 25px 25px 25px;
     border-radius: 40%;
 }
-#social img:hover{
+
+#social img:hover {
     color: lightgray;
-    box-shadow: 0px 0px 10px 4px rgba(230, 196,196,.5);
+    box-shadow: 0px 0px 10px 4px rgba(230, 196, 196, .5);
 }
-#about{
-    height: auto;
-    width: 100%;
+
+/* about section */
+
+
+#about {
     position: relative;
 }
-#profilepic{
-    height: 16rem;
+
+#my-image {
+    height: 12rem;
     width: 12rem;
-    border-radius: 50%;
-    margin-top: -17vh;
-    border: 1px black solid;
-     box-shadow: 0px 0px 10px 6px gray;
-     
+    margin: auto;
+    margin-top: -6rem;
 }
-#aboutpara{
-    width: 60%;
+
+#profilepic {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#aboutpara {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     margin: auto;
-    color: aliceblue;
+    margin-top: 30px;
+    color: black;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+/* section  */
+
+section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#skill {
+    width: 60%;
+    margin: auto;
+    min-width: max-content;
+}
+
+#Education {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    width: 60vw;
+
+}
+
+/* skill box classes */
+
+.heading {
+    font-size: 2rem;
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+    margin-bottom: 75px;
+    color: #2857a4;
+}
+
+.skill-display {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.skill-display>div {
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.skillbar {
+    height: 1.5rem;
+    width: 8rem;
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skillname {
+    height: inherit;
+    justify-content: center;
+}
+
+.skillname span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+
+.skillbar>div {
+    height: 1.5rem;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* percentage classes */
+
+
+.eighty5-percent {
+    width: 85%;
+    height: inherit;
+}
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.fifty-percent {
+    height: inherit;
+    width: 50%;
+}
+
+.seventy-percent {
+    height: inherit;
+    width: 70%;
+}
+
+/* setting background-color */
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+
+
+/* contact */
+#Contact {
+    background-image: linear-gradient(to top right, rgb(31, 238, 224), blue, rgb(157, 1, 157));
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+#c-heading {
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.c-div {
+    height: auto;
+    width: 40%;
+    display: flex;
+
 }
